@@ -1,0 +1,76 @@
+@import '../assets/landingpage.css';
+
+
+
+@font-face {
+    font-family: Fredoka;
+    src: url('src/assets/Fredoka/static/Fredoka-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('src/assets/Poppins/Poppins-SemiBold.ttf');
+}
+
+li {
+    margin: auto;
+}
+a:hover {
+    background-color: #00767A;
+    color: white;
+  }
+a {
+    font-family: Fredoka;
+    color: #00767A;
+    height: 24px;
+    width: 97px;
+    size: 20px;
+    line-height: 24.2px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    width: 6.688rem !important;
+    height: 4.813rem !important;
+}
+
+.navbar {
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.navbar-nav {
+    width: 52.688rem !important;
+    height: 2.75rem !important;
+}
+
+.container-fluid {
+    margin: auto !important;
+    padding: 13px 90px 13px 90px !important;
+    width: 1400px !important;
+}
+
+.btn:hover {
+    background-color: #FFFFFF !important;
+    color: #F7921D !important;
+  }
+
+.btn {
+    background-color: #F7921D !important;
+    border-radius: 4px !important;
+    color: #FFFFFF !important;
+    height: 44px;
+    font-family: Poppins !important;
+
+}
+
+.b {
+    margin-right: 10px !important;
+}
+
+html {
+    margin: auto !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
